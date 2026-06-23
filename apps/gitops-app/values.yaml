@@ -1,0 +1,9 @@
+image:
+  repository: 700800570325.dkr.ecr.ap-south-1.amazonaws.com/dev-gitops-app
+  tag: latest
+  pullPolicy: Always
+replicaCount: 1
+service:
+  type: ClusterIP
+  port: 80
+  targetPort: 80
